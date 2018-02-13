@@ -47,6 +47,7 @@ def openPhoto():
 def myCanvas(event):
     canvas.configure(scrollregion=canvas.bbox("all"),width=1000,height=700)
     
+    
 root.grid_rowconfigure(1, weight=1)
 root.grid_columnconfigure(0, weight=1)
 frame1 = tk.Frame(root)
